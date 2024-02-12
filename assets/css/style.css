@@ -147,6 +147,13 @@ h6 {
   }
 }
 
+.img-fluid{
+  
+  border: 1px solid #9b9393;
+}
+.img-fluid:hover {
+  box-shadow: 0px 0px 4px 3px rgba(0, 140, 186, 0.5);
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -390,6 +397,8 @@ section {
   margin-bottom: 0;
 }
 
+
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -563,6 +572,20 @@ section {
   background: #fff;
   border: 2px solid #1f5297;
 }
+
+.content a{
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #040b14;
+  border-color: white;
+}
+.content a:hover{
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .4);
+  background: #4ca8d2;
+  border: 1px solid #4ca8d2;
+  color: white;
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -876,6 +899,15 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
 } */
+
+
+#poster{
+  
+  background: rgb(245, 248, 253);
+}
+#article{
+  background: rgb(245, 248, 253);
+}
 
 /*--------------------------------------------------------------
 # Contact
