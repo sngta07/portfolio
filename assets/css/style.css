@@ -290,6 +290,24 @@ h6 {
     line-height: 36px;
   }
 
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/mda.jpg") top center;
+    background-size: cover;
+  }
+
+  #hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
